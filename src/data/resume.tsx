@@ -11,7 +11,7 @@ export const DATA = {
     'Developer, QA Automation Engineer, and Open Source Contributor with a passion for building smart, reliable test automation and software solutions.',
   summary:
     "I love building and testing unique things and I don't shy away from a challenge. I'm comfortable working on my own or collaborating with developers, product owners, and others in an agile setting. With a background in development, QA, and customer service, I focus on shipping features that are both high-quality and genuinely useful.",
-  avatarUrl: '/me.jfif',
+  avatarUrl: '/me.jpg',
   skills: [
     'JavaScript',
     'Typescript',
