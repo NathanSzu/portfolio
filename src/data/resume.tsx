@@ -19,6 +19,7 @@ export const DATA = {
     'Java',
     'C#',
     'Cypress',
+    'Guidewire',
     'Playwright',
     'Selenium',
     'Mocha',
@@ -37,7 +38,7 @@ export const DATA = {
     'Scrum',
     'Kanban',
   ],
-  aiTools: ['Github Copilot', 'Cursor AI', 'ChatGPT'],
+  aiTools: ['Github Copilot', 'Cursor AI', 'ChatGPT', 'OpenAI Codex', 'Atlassian Rovo'],
   navbar: [{ href: '/', icon: HomeIcon, label: 'Home' }],
   contact: {
     social: {
@@ -60,6 +61,18 @@ export const DATA = {
 
   work: [
     {
+      company: 'Western National Insurance',
+      href: 'https://www.wnins.com/',
+      badges: [],
+      location: 'Remote',
+      title: 'Quality Assurance Engineer',
+      logoUrl: '/wnins.jpg',
+      start: 'August 2025',
+      end: 'Current',
+      description:
+        'Collaborated with a highly motivated automation team to create a new page object model oriented Cypress test automation framework for a complex insurance application. Researched and utilized AI tools to optimize test creation and maintenance, working closely with other team members to outline requirements and maintain documentation to inform the AI context.',
+    },
+    {
       company: 'Sovos Compliance',
       href: 'https://sovos.com/',
       badges: [],
@@ -67,7 +80,7 @@ export const DATA = {
       title: 'Quality Assurance Engineer',
       logoUrl: '/sovos.jfif',
       start: 'August 2021',
-      end: 'Current',
+      end: 'August 2025',
       description:
         'Authored and maintained UI, API, and E2E test automation using Cypress/Mocha in Azure DevOps, enhancing regression coverage and early bug detection. Performed manual testing on a complex tax compliance app, logging issues and test cases in Jira. Created internal documentation to improve automation reliability. Validated APIs with Postman and used SQL for data verification. Collaborated on agile Scrum/Kanban teams to deliver high-quality features and supported smooth bi-weekly releases with automated smoke tests.',
     },
