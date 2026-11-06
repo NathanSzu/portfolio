@@ -65,7 +65,7 @@ export const DATA = {
       href: 'https://www.wnins.com/',
       badges: [],
       location: 'Remote',
-      title: 'Quality Assurance Engineer',
+      title: 'Automation Engineer II',
       logoUrl: '/wnins.jpg',
       start: 'August 2025',
       end: 'Current',
@@ -129,6 +129,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'Solar Estimator',
+      href: 'https://solarestimator.nathanszurek.com/',
+      dates: '2026 - Current',
+      active: true,
+      description:
+        'Built a client-side web app that estimates the payback timeline and income generation of a residential solar installation. Users enter a location, system size, costs, and optional loan terms to compare production, financing, and what-if scenarios. Integrates Open-Meteo for historical hourly irradiance and geocoding, plus optional EIA data for regional electricity price trends. Plans persist in browser storage with no backend, and results can be exported for printing. Deployed to Firebase Hosting through a GitHub Actions CI/CD pipeline.',
+      technologies: ['React', 'TypeScript', 'Vite', 'Firebase', 'GitHub Actions'],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://solarestimator.nathanszurek.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'Github',
+          href: 'https://github.com/NathanSzu/SolarEstimator',
+          icon: <Icons.globe className='size-3' />,
+        },
+      ],
+      image: '',
+      video: '/solarestimator.webm',
+    },
+    {
       title: 'Party Loot Tracker',
       href: 'https://partyloottracker.com/',
       dates: '2021 - Current',
@@ -137,6 +160,11 @@ export const DATA = {
         'Designed and launched a progressive web app with 750+ users to manage and search shared tabletop RPG inventories. Built with React, JavaScript, Bootstrap, and Firebase, featuring a serverless architecture with secure backend rules. Integrated Cypress for automated testing and connected external open-source APIs for content access. Added social features like item sharing, likes, and public compendiums to enhance user engagement.',
       technologies: ['React', 'JavaScript', 'Firebase', 'Cloud Firestore', 'Bootstrap', 'Cypress'],
       links: [
+        {
+          type: 'Website',
+          href: 'https://partyloottracker.com/',
+          icon: <Icons.globe className='size-3' />,
+        },
         {
           type: 'Github',
           href: 'https://github.com/NathanSzu/PartyLoot',
